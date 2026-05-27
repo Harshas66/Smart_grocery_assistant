@@ -1,7 +1,7 @@
-from src.data_loader import load_data
-from src.feature_engineering import prepare_inventory, prepare_recipes
-from src.recipe_feasibility import check_feasibility
-from src.recommender import recommend_recipes
+from data_loader import load_data
+from feature_engineering import prepare_inventory, prepare_recipes
+from recommender import recommend_recipes
+from recipe_feasibility import check_recipe_feasibility
 
 def main():
     # Load datasets
