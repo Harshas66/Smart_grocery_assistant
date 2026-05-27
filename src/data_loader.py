@@ -2,11 +2,15 @@ import pandas as pd
 
 def load_data():
     inventory = pd.DataFrame({
-        "item": ["milk", "bread", "egg"]
+        "Product_Name": ["milk", "bread", "egg"]
     })
 
     recipes = pd.DataFrame({
-        "recipe": ["toast", "omelette"]
+        "name": ["toast", "omelette"],
+        "ingredients": [
+            "bread,milk",
+            "egg,milk"
+        ]
     })
 
     return inventory, recipes
