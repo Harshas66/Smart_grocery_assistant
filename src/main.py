@@ -1,7 +1,7 @@
 from data_loader import load_data
 from feature_engineering import prepare_inventory, prepare_recipes
 from recommender import recommend_recipes
-from recipe_feasibility import check_recipe_feasibility
+from recipe_feasibility import check_feasibility
 
 def main():
     # Load datasets
